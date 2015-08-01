@@ -1,0 +1,26 @@
+{
+  "name": "whatshouldidotonightSF",
+  "version": "1.0.0",
+  "description": "What should I do tonight, SF?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yanarchy/whatshouldidotonightSF.git"
+  },
+  "author": "Yan Fan, Todd Kawakita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yanarchy/whatshouldidotonightSF/issues"
+  },
+  "homepage": "https://github.com/yanarchy/whatshouldidotonightSF",
+  "dependencies": {
+    "express": "^4.13.2",
+    "grunt": "^0.4.5",
+    "jquery": "^2.1.4",
+    "node": "0.0.0",
+    "react": "^0.13.3"
+  }
+}

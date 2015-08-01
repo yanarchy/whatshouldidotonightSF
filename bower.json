@@ -1,0 +1,25 @@
+{
+  "name": "whatshouldidotonightSF",
+  "main": "index.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/yanarchy/whatshouldidotonightSF",
+  "authors": [
+    "Yan Fan and Todd Kawakita"
+  ],
+  "description": "What should I do tonight, SF?",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3"
+  }
+}
