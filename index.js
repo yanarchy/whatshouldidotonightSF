@@ -1,13 +1,15 @@
 var express = require('express');
-var app = express();
+var app = module.exports = express();
 
 app.set('port', (process.env.PORT || 3000));
 
-app.use(express.static(__dirname + '/public'));
-app.set('public', __dirname + '/public');
+app.use(express.static(__dirname + '/app'));
+app.set('app', __dirname + '/app');
+
+require('./routes')(app);
 
 app.get('/', function (req, res) {
-  response.render('index.html')
+  response.render('')
 });
 
 app.listen(app.get('port'), function() {
