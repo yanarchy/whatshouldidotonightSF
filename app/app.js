@@ -22,6 +22,7 @@ var routes = (
   </Route>
 );
 
+console.log('hello');
 Router.run(routes, Router.HistoryLocation, function(Handler, state) {
   var params = state.params;
   React.render(<Handler params={params} />, document.getElementById('react-mount'));
