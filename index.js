@@ -6,7 +6,7 @@ app.set('port', (process.env.PORT || 3000));
 app.use(express.static(__dirname + '/app'));
 app.set('app', __dirname + '/app');
 
-require('./routes')(app);
+// require('./routes')(app);
 
 app.get('/', function (req, res) {
   response.render('')
